@@ -18,7 +18,7 @@ Each keyword is represented as a separate file with just two properties; Unlocke
 Riddle rocks is a simple static page with tick boxes for each of the riddles. 
 
 ## Overview
-The file overview brings all the files together for a hopefylly easy overview over locations, what keywords are relevant, which locations have been visited and which ones are crossed out. I use dataview to query the markdown files described above. It is a fairly simple DQL query that is repeated for every 2-page spread of the atlas. The query removes locations from the list that have been crossed out.  
+The file overview brings all the files together for a hopefylly easy overview over locations, what keywords are relevant, which locations have been visited and which ones are crossed out. I use dataview to query the markdown files described above. It is a fairly simple DQL query that is repeated for every 2-page spread of the atlas. The query removes locations from the list that have been crossed out. Keywords are also only shown for locations that have been visited. 
 
 ![image](https://github.com/user-attachments/assets/2d268d27-c1c6-49e5-ae2b-8f7442b89d5b)
 
