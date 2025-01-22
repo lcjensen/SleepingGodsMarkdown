@@ -28,3 +28,23 @@ The overview assumes the content of this repo are located in Sleeping Gods - Dis
 
 ### Shit, it's in Danish
 Some of the language is in Danish, I apologize.
+
+### Setup for use with phone 
+Inititial setup is easiest to do on a pc first and then syncronize to iphone/android device. 
+
+- Download and extract repository
+- From your phone create new Obsidian Vault with either Obsidian Sync or with other cloud service. I have tested this setup using Obsidian Sync and iCloud. If you after initial setup only need to access the files via your phone I think using Icloud in your browser works well. Otherwise, install Obisidian to your pc/mac and open the vault you created.
+- Copy all the files from the repository into your vault.
+- Make a copy of the folder Default and rename to something that makes sense to you, i.e. Campaign1.
+- Edit the queries so the FROM statement looks into the new folder rather than the default folder: "FROM "Sleeping Gods - Distant Skies/Default/Locations"" -> "FROM "Sleeping Gods - Distant Skies/Campaign1/Locations""
+- You should be good to go. 
+
+#### Alternative query
+Rather than having seperate queries for each page spread you could just have one long table that contains all of the location. In that case replace all the location queries with this one:
+
+```
+TABLE choice(Besøgt, Keywords, "") AS Keywords, choice(Besøgt, "✅", "") as Besøgt
+FROM "Sleeping Gods - Distant Skies/Campaign1/Locations"
+WHERE crossed-out != true
+SORT file.name
+```
