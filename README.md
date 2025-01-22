@@ -37,6 +37,7 @@ Inititial setup is easiest to do on a pc first and then syncronize to iphone/and
 - Copy all the files from the repository into your vault.
 - Make a copy of the folder Default and rename to something that makes sense to you, i.e. Campaign1.
 - Edit the queries so the FROM statement looks into the new folder rather than the default folder: "FROM "Sleeping Gods - Distant Skies/Default/Locations"" -> "FROM "Sleeping Gods - Distant Skies/Campaign1/Locations""
+- Wheneve you start a new campaign, copy Default again and redo those steps.
 - You should be good to go. 
 
 #### Alternative query
