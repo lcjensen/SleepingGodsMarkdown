@@ -27,7 +27,7 @@ The file overview brings all the files together for a hopefylly easy overview ov
 The overview assumes the content of this repo are located in Sleeping Gods - Distant Skies/Default. I make a copy whenever I start a new campaign and change the paths accordingly. It could probably be done more effeciently with Templater or some JavaScript. If that's you jam, have at it! The files are published here in the vain hope that other people will find it useful. You are more than welcome to improve upon it. 
 
 ### Shit, it's in Danish
-Some of the language is in Danish, I apologize.
+Some of the language is in Danish, I apologize. When I made this I didn't think I'd be sharing in with anyone. If I get the time I'll change it to English. For now understand that "Besøgt" means visited. 
 
 ### Setup for use with phone 
 Inititial setup is easiest to do on a pc first and then syncronize to iphone/android device. 
